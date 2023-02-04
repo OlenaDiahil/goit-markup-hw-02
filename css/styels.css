@@ -180,6 +180,14 @@ ul {
     display: none;
 }
 
+.portfolio-container {
+    width: 360px;
+    height: 420px;
+    left: 156px;
+    top: 756px;
+    border: 1px solid #E7E9FC;
+}
+
 .portfolio-title {
     color: var(--brand-color);
     font-weight: 500;
