@@ -176,10 +176,19 @@ ul {
     cursor: pointer;
 }
 
-.filtr-button :hover {
-    border: var(--focus-color);
+.portfolio-head {
+    display: none;
 }
 
-.portfolio-img :hover {
-    color: var(--focus-color);
+.portfolio-title {
+    color: var(--brand-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.portfolio-descrfiltr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
