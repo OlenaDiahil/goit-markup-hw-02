@@ -36,7 +36,7 @@ ul {
     text-decoration: none;
 }
 
-.header-link:hover,:focus {
+.header-link:hover,.header-link:focus {
     color: var(--focus-color);
 }
 
@@ -48,7 +48,7 @@ ul {
     text-decoration: none
 }
 
-.address-link:hover,:focus {
+.address-link:hover,.address-link:focus {
     color: var(--focus-color);
 }
 
@@ -75,7 +75,7 @@ ul {
     cursor: pointer;
 }
 
-.button-service:hover,:focus {
+.button-service:hover,.button-service:focus {
     background: var(--focus-color);
 }
 
@@ -159,7 +159,7 @@ ul {
     cursor: pointer;
 }
 
-.filtr-button:hover,:focus {
+.filtr-button:hover,.filtr-button:focus {
     color: #FFFFFF;
     background: var(--focus-color);
 }
@@ -172,7 +172,7 @@ ul {
     border: 1px solid #E7E9FC;
 }
 
-.portfolio-img :hover,:focus {
+.portfolio-img :hover,.portfolio-img:focus {
     background: var(--focus-color);
 }
 
