@@ -36,27 +36,19 @@ ul {
     text-decoration: none;
 }
 
-.header-link :hover {
-    color: var(--focus-color);
-}
-
-.header-link :focus {
+.header-link:hover,:focus {
     color: var(--focus-color);
 }
 
 .address-link {
     color: #434455;
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    font-style: normal;
     text-decoration: none
 }
 
-.address-link :hover {
-    color: var(--focus-color);
-}
-
-.address-link :focus {
+.address-link:hover,:focus {
     color: var(--focus-color);
 }
 
@@ -79,14 +71,11 @@ ul {
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: 0;
     cursor: pointer;
 }
 
-.button-service :hover {
-    background: var(--focus-color);
-}
-
-.button-service :focus {
+.button-service:hover,:focus {
     background: var(--focus-color);
 }
 
@@ -102,34 +91,29 @@ ul {
 }
 
 .about-section-descr {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
 }
 
 .example-section-head {
     color: var(--brand-color);
-    font-weight: 700;
     font-size: 36px;
     line-height: 40px;
 }
 
 .team-section-head {
     color: var(--brand-color);
-    font-weight: 700;
     font-size: 36px;
     line-height: 40px;
 }
 
 .team-section-title {
     color: var(--brand-color);
-    font-weight: 500;
     font-size: 20px;
     line-height: 24px;
 }
 
 .team-section-descr {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
 }
@@ -154,12 +138,11 @@ ul {
 
 .footer-descr {
     color: #E7E9FC;
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
 }
 
-.filtr-section-head {
+.portfolio-head {
     display: none;
 }
 
@@ -176,8 +159,9 @@ ul {
     cursor: pointer;
 }
 
-.portfolio-head {
-    display: none;
+.filtr-button:hover,:focus {
+    color: #FFFFFF;
+    background: var(--focus-color);
 }
 
 .portfolio-container {
@@ -188,6 +172,10 @@ ul {
     border: 1px solid #E7E9FC;
 }
 
+.portfolio-img :hover,:focus {
+    background: var(--focus-color);
+}
+
 .portfolio-title {
     color: var(--brand-color);
     font-weight: 500;
@@ -196,7 +184,6 @@ ul {
 }
 
 .portfolio-descrfiltr {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
 }
