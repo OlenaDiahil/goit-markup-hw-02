@@ -2,6 +2,7 @@ body {
     color: #434455;
     font-family: 'Roboto', sans-serif;
     background: #FFFFFF;
+    letter-spacing: 0.02em;
 }
 
 :root {
@@ -22,6 +23,7 @@ ul {
     line-height: 24px;
     text-transform: uppercase;
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 
 .logo-link-part {
@@ -79,10 +81,6 @@ ul {
     background: var(--focus-color);
 }
 
-.about-section-head {
-    display: none;
-}
-
 .about-section-title {
     color: var(--brand-color);
     font-weight: 500;
@@ -130,6 +128,7 @@ ul {
     line-height: 21px;
     text-transform: uppercase;
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 
 .logo-footer-part {
@@ -140,10 +139,6 @@ ul {
     color: #E7E9FC;
     font-size: 16px;
     line-height: 24px;
-}
-
-.portfolio-head {
-    display: none;
 }
 
 .filtr-button {
